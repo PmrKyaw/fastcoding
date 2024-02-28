@@ -6,6 +6,7 @@
   grid-row-gap: 0px;
   position: relative;
   margin: 7em 0;
+  padding: 1em;
 }
 .ta-prod > div {
   width: 100%;

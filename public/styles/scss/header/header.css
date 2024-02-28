@@ -254,10 +254,6 @@ body {
   transform: translateX(calc(-100% - 120px));
 }
 
-.only-tablet {
-  display: none;
-}
-
 .ta-slider-arrow .ta-slider-arrow-up,
 .ta-slider-arrow .ta-slider-arrow-down {
   width: auto;
@@ -266,7 +262,14 @@ body {
   background-color: unset;
 }
 
+.only-tablet {
+  display: none;
+}
+
 @media screen and (max-width: 1300px) {
+  .only-tablet {
+    display: block;
+  }
   .ta-top-hero {
     min-height: auto;
     padding-bottom: 2em;
@@ -282,9 +285,6 @@ body {
   }
   .ta-cover-slider-right {
     max-width: 100%;
-  }
-  .only-tablet {
-    display: block;
   }
   .ta-nav {
     padding: 0.5em 1em;
@@ -306,7 +306,7 @@ body {
   }
   .ta-nav-mb {
     position: fixed;
-    top: 119px;
+    top: 128px;
     left: 0;
     width: 100%;
     background-color: #fff;
